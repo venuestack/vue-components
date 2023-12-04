@@ -1,7 +1,7 @@
 {
   "name": "@venuestack/vue-components",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
   "files": [
     "dist"
@@ -12,7 +12,8 @@
     ".": {
       "import": "./dist/vue-components.js",
       "require": "./dist/vue-components.umd.cjs"
-    }
+    },
+    "./style.css": "./dist/style.css"
   },
   "types": "./dist/index.d.ts",
   "scripts": {
