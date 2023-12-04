@@ -8,5 +8,5 @@
 </script>
 
 <template>
-  <button class="px-6 py-2 bg-slate-950 text-white hover:bg-slate-800 rounded-md">{{ text }}</button>
+  <button class="px-6 py-2 bg-black text-white hover:bg-gray-800 rounded-md">{{ text }}</button>
 </template>
